@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutTopic from '../../../components/AboutTopic'
 
 function page() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className='flex justify-center'>
+      <AboutTopic></AboutTopic>
     </div>
   )
 }

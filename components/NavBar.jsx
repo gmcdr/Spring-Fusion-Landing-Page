@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
 import NavItem from "./NavItem";
 import Image from "next/image";
+
 
 function NavBar() {
   return (
@@ -12,11 +14,11 @@ function NavBar() {
 
       <div className="flex justify-between">
         <NavItem title="About" link="/about" />
-        <NavItem title="Home" link="/" />
+        <NavItem title="Home" link="/"/>
         <NavItem title="Donate" link="/contact" />
       </div>
 
-      <div>
+      <div className="hidden sm:inline">
         <a href="https://github.com/gmcdr/api-generator"><button className="border border-green-600 p-2 rounded hover:bg-green-600">Get Started</button></a>
       </div>
       
