@@ -15,11 +15,11 @@ function NavBar() {
       <div className="flex justify-between">
         <NavItem title="About" link="/about" />
         <NavItem title="Home" link="/"/>
-        <NavItem title="Donate" link="/contact" />
+        <NavItem title="Documentation" link="/contact" />
       </div>
 
       <div className="hidden sm:inline">
-        <a href="https://github.com/gmcdr/api-generator"><button className="border border-green-600 p-2 rounded hover:bg-green-600">Get Started</button></a>
+        <a href="https://github.com/gmcdr/api-generator"><button className="border border-green-600 p-2 rounded hover:bg-green-600 ">Get Started</button></a>
       </div>
       
     </div>
