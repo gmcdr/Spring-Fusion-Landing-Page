@@ -7,7 +7,7 @@ function AboutTopic() {
   let about =
     "The Java-based API Generator is a tool designed to streamline the development process, providing pre-built Spring classes with customizable templates. It caters to developers of all levels, offering a simple way to kickstart projects. Key features include custom entity creation, automatic generation of essential classes, flexible customization, support for popular technologies, and increased productivity.";
   return (
-    <div>
+    <div className="">
       <Title title={'About'}/>
       <div className="flex max-w-6xl mx-4 my-4">
         <AboutItem
@@ -30,7 +30,7 @@ function AboutTopic() {
       <div className="flex justify-between">
         <AboutCard text={'Our project is built using Java, Spring Boot, Maven, PostgreSQL, Lombok, and integration with Swagger, so you can focus on what really matters: developing amazing features for your APIs.'} title={'Popular Technologies'} imageSrc={"/data.png"}></AboutCard>
         <AboutCard text={'With the API Generator, you can accelerate API development and reduce human errors, allowing your team to focus on creating value for your customers.'} title={'Boost Productivity'} imageSrc={"/shuttle.png"}></AboutCard>
-        <AboutCard text={'Save your money: With this tool you can save time and money when developing entities. Focusing on what really matters: business rules.'} title={'Save your money'} imageSrc={"/money.png"}></AboutCard>
+        <AboutCard text={'With this tool you can save time and money when developing entities. Focusing on what really matters: business rules.'} title={'Save your money'} imageSrc={"/money.png"}></AboutCard>
       </div>
     </div>
   );

@@ -4,8 +4,29 @@
 
 
 * {
-  background-color: #1b1f23;
   color: #fff;
+  /* background-color: #1e293b; */
+}
+
+body {
+  background: linear-gradient(-45deg, #0f1825, #1e293b, #0f1825, #1e293b);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 html::-webkit-scrollbar {
@@ -17,5 +38,58 @@ html {
 }
 
 .height {
-  min-height: 80vh;
+  min-height: 89vh;
+}
+
+.custom-shape-divider-bottom-1698768764 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698768764 svg {
+  position: relative;
+  display: block;
+  width: calc(266% + 1.3px);
+  height: 285px;
+}
+
+.custom-shape-divider-bottom-1698768764 .shape-fill {
+  fill: #7ED321;
+}
+
+.container-bottom-to-up {
+  overflow: hidden;
+  margin: 0px;
+}
+
+.top-to-bottom {
+  animation: 0.4s top-to-bottom forwards;
+}
+
+@keyframes top-to-bottom {
+  from {
+    transform: translateY(-48px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.glass-back {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+
+}
+
+.p-inherit{
+  padding: inherit;
 }
