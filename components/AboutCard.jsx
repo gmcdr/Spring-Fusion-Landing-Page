@@ -10,7 +10,7 @@ function AboutCard({ imageSrc, title, text }) {
     rounded-lg sm:border 
     sm:border-slate-400 
     sm:m-2 transition-shadow duration-200
-    group max-w-sm"
+    group max-w-sm justify-center ml-2"
     >
       <Link className="flex-col justify-center text-center my-1" href={`/`}>
         <div className="flex justify-center">
@@ -23,6 +23,7 @@ function AboutCard({ imageSrc, title, text }) {
             style={{
               maxWidth: "100%",
               height: "auto",
+              marginTop:'20px'
             }}
           ></Image>
         </div>

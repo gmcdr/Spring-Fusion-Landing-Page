@@ -7,17 +7,25 @@ function MainContent() {
       <section id="containerAnimation" className="container-bottom-to-up">
         <div className="mainContent flex-col height max-w-6xl mx-5 py-6">
           <div>
-            <h1 className="text-8xl font-semibold p-5">
-              Spring Boot <span className="text-green-400">Low-Code</span>
+            <h1 className="sm:text-7xl text-4xl font-semibold p-2">
+              Spring Boot <span className="text-green-400 font-bold">Fusion</span>
             </h1>
-            <p className="top-to-bottom p-5 text-xl">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit rem
-              minus officia quos quam nulla nostrum quisquam recusandae officiis
-              aliquid rerum repellat, veniam iusto earum vel deleniti quae,
-              harum provident.
+            <h3 className="sm:text-2xl text-xl p-2">
+              Kickstart Your Projects with Pre-built Spring Classes and Custom
+              Entity Creation
+            </h3>
+            <p className="top-to-bottom p-2 sm:text-xl text-lg">
+              Our Java-based API Generator is the ultimate tool to streamline
+              your Spring development process, whether you're a novice or a
+              seasoned developer. It simplifies the generation of Spring classes
+              using pre-built templates, saving you valuable time and effort
+              when starting a new project.
             </p>
-            <div className="flex">
-              <ButtonMain text={'Get Started'} adress={'/documentation'}></ButtonMain>
+            <div className="flex my-4">
+              <ButtonMain
+                text={"Get Started"}
+                adress={"/documentation"}
+              ></ButtonMain>
             </div>
           </div>
         </div>

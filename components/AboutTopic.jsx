@@ -20,14 +20,14 @@ function AboutTopic() {
       </div>
 
       <Title title={'Key Features'}/>
+      
+      <div>
 
-      <div className="flex justify-between">
+      </div>
+      <div className="sm:grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 max-w-7xl mx-auto py-4">
         <AboutCard text={'Define your entities with custom fields, data types, sizes, and more, all through a simple request.'} title={'Custom Entity Creation'} imageSrc={"/pencil.png"}></AboutCard>
         <AboutCard text={'Automatic Generation of Controller, Repository, and Entity: Based on the provided specifications, the API Generator automatically creates the necessary classes, saving hours of manual coding.'} title={'Automatic Generation'} imageSrc={"/settings.png"}></AboutCard>
         <AboutCard text={'Choose the entity name, endpoint name, package, modifier, and more, ensuring that the generated code adapts to your specific needs.'} title={'Flexible Customization'} imageSrc={"/provision.png"}></AboutCard>
-      </div>
-
-      <div className="flex justify-between">
         <AboutCard text={'Our project is built using Java, Spring Boot, Maven, PostgreSQL, Lombok, and integration with Swagger, so you can focus on what really matters: developing amazing features for your APIs.'} title={'Popular Technologies'} imageSrc={"/data.png"}></AboutCard>
         <AboutCard text={'With the API Generator, you can accelerate API development and reduce human errors, allowing your team to focus on creating value for your customers.'} title={'Boost Productivity'} imageSrc={"/shuttle.png"}></AboutCard>
         <AboutCard text={'With this tool you can save time and money when developing entities. Focusing on what really matters: business rules.'} title={'Save your money'} imageSrc={"/money.png"}></AboutCard>
