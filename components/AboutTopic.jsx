@@ -18,21 +18,11 @@ function AboutTopic() {
         "email":{
             "type":"string",
             "size":"255"
-        },
-        "salary":{
-            "type":"double",
-            "size":"255"
-        },
-        "children":{
-            "type":"boolean"
-        },
-        "event":{
-            "type":"localDateTime"
         }
     },
     "entityName":"Employee",
     "endPointName":"employee",
-    "package":"com.appfusion.apigenerator.builder",
+    "package":"com.appfusion.apigenerator",
     "modifier":"public",
     "clientID":"test"
 }`;
