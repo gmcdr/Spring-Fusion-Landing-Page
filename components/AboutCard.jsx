@@ -12,7 +12,7 @@ function AboutCard({ imageSrc, title, text }) {
     sm:m-2 transition-shadow duration-200
     group max-w-sm justify-center ml-2"
     >
-      <Link className="flex-col justify-center text-center my-1" href={`/`}>
+      <Link className="flex-col justify-center text-center my-1" href={``}>
         <div className="flex justify-center">
           <Image
             src={imageSrc}

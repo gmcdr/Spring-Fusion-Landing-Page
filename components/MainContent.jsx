@@ -5,7 +5,7 @@ function MainContent() {
   return (
     <div className="">
       <section id="containerAnimation" className="container-bottom-to-up">
-        <div className="mainContent flex-col height max-w-6xl mx-5 py-6">
+        <div className="mainContent flex-col height max-w-6xl mx-10 py-6">
           <div>
             <h1 className="sm:text-7xl text-4xl font-semibold p-2">
               Spring Boot <span className="text-green-400 font-bold">Fusion</span>

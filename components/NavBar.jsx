@@ -28,7 +28,7 @@ function NavBar() {
       <div className="flex">
         <NavIcon Icon={AiFillGithub} adress={'https://github.com/'} />
         <NavIcon Icon={BiLogoDocker} adress={'https://hub.docker.com/'} />
-        <NavIcon Icon={SiBuymeacoffee} adress={'https://hub.docker.com/'} />
+        <NavIcon Icon={SiBuymeacoffee} adress={'https://www.buymeacoffee.com/gabrielreib'} />
       </div>
       
     </div>
