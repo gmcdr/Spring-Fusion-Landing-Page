@@ -31,7 +31,7 @@ function MainContent() {
               ></ButtonMain>
             </div>
 
-            <div className="sm:hidden block justify-center">
+            <div className="sm:hidden block justify-center mt-9">
               <NavIcons></NavIcons>
             </div>
 
