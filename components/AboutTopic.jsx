@@ -31,7 +31,7 @@ function AboutTopic() {
   return (
     <div className="">
       <Title title={"About"} />
-      <div className="flex max-w-6xl mx-4 my-4">
+      <div className="flex max-w-6xl mx-6 my-4">
         <AboutItem title={"Concept"} text={about}></AboutItem>
       </div>
 
@@ -39,11 +39,15 @@ function AboutTopic() {
 
 
       <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4">
-        <div className="flex justify-center my-10">
-          <p className="sm:text-2xl text-xl">
+        <div className="flex flex-col my-10 mx-6">
+          <p className="sm:text-2xl text-xl mb-8">
              <span className="text-green-400 sm:text-4xl text-2xl"> Generate </span> Spring Boot classes with a simple and powerful tool that
             generates your entity, repository, and controller already in the
              <span className="text-green-400 sm:text-4xl text-2xl"> RESTful</span> standard
+          </p>
+
+          <p className="sm:text-2xl text-xl py-8">
+            <span className="text-green-400 sm:text-4xl text-2xl" > Send </span> a simple request and build your <span className="text-green-400 sm:text-4xl text-2xl"> Spring Class </span> 
           </p>
         </div>
         <div className="max-w-4xl justify-center">

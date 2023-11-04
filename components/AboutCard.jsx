@@ -33,7 +33,7 @@ function AboutCard({ imageSrc, title, text }) {
             <h1 className="text-xl my-2">{title}</h1>
           </div>
           <div>
-            <p className=" text-md">{text}</p>
+            <p className=" text-md mx-4">{text}</p>
           </div>
         </div>
       </Link>

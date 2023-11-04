@@ -8,7 +8,7 @@ const JsonContent = ({ jsonCode }) => {
   }, []);
 
   return (
-    <pre>
+    <pre className=''>
       <code className="json">
         {jsonCode}
       </code>

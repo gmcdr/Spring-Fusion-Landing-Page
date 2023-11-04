@@ -7,8 +7,10 @@ function ButtonMain({ text, adress }) {
       <div className="mx-2 my-4">
         <a
           className="
-      px-9 
-      py-4 
+      sm:px-9 
+      sm:py-4 
+      px-6
+      py-3
       rounded-full 
       cursor-pointer 
       hover:bg-transparent 
