@@ -26,7 +26,7 @@ function NavBar() {
         />
       </div>
 
-      <div className="hidden sm:invisible">
+      <div className="hidden sm:block">
         <NavIcons></NavIcons>
       </div>
     </div>
