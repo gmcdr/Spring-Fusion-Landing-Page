@@ -63,7 +63,7 @@ function MainContent() {
           </svg>
         </div>
 
-        <div class="custom-shape-divider-bottom-1699065311 sm:hidden block">
+        <div class="custom-shape-divider-bottom-1699065699 sm:hidden block">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
