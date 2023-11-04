@@ -100,3 +100,32 @@ html {
 .p-inherit{
   padding: inherit;
 }
+
+.custom-shape-divider-bottom-1699065311 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1699065311 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1699065311 .shape-fill {
+  fill: #7ED321;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1699065311 svg {
+      width: calc(300% + 1.3px);
+      height: 150px;
+  }
+}
