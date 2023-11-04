@@ -22,7 +22,7 @@ function AboutTopic() {
     },
     "entityName":"Employee",
     "endPointName":"employee",
-    "package":"com.appfusion.apigenerator",
+    "package":"com.appfusion",
     "modifier":"public",
     "clientID":"test"
 }`;
