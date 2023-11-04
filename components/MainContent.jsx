@@ -1,5 +1,7 @@
 import React from "react";
 import ButtonMain from "./ButtonMain";
+import NavIcons from "./NavIcons";
+import NavIcon from "./NavIcon";
 
 function MainContent() {
   return (
@@ -28,6 +30,11 @@ function MainContent() {
                 adress={"/documentation"}
               ></ButtonMain>
             </div>
+
+            <div className="sm:hidden block justify-center">
+              <NavIcons></NavIcons>
+            </div>
+
           </div>
         </div>
       </section>

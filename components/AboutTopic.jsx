@@ -37,8 +37,7 @@ function AboutTopic() {
 
       <Title title={"Simple Usage"} />
 
-
-      <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4">
+      <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4 -my-7">
         <div className="flex flex-col my-10 mx-6">
           <p className="sm:text-2xl text-xl mb-8">
              <span className="text-green-400 sm:text-4xl text-2xl"> Generate </span> Spring Boot classes with a simple and powerful tool that

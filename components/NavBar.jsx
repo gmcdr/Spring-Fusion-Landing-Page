@@ -1,36 +1,34 @@
-'use client'
+"use client";
 import React from "react";
 import NavItem from "./NavItem";
 import Image from "next/image";
-import { AiFillGithub } from 'react-icons/ai';
-import { BiLogoDocker } from 'react-icons/bi';
-import { SiBuymeacoffee } from 'react-icons/si';
-import { AiFillHome } from 'react-icons/ai';
-import { BiSolidBookmarks } from 'react-icons/bi';
-import { AiFillBook } from 'react-icons/ai';
+import { AiFillHome } from "react-icons/ai";
+import { BiSolidBookmarks } from "react-icons/bi";
+import { AiFillBook } from "react-icons/ai";
 
 import NavIcon from "./NavIcon";
+import NavIcons from "./NavIcons";
 
 function NavBar() {
   return (
     <div className="flex justify-between p-5">
-
       <div>
         <Image src={"/logo2.png"} height={50} width={50}></Image>
       </div>
 
       <div className="flex justify-between glass-back p-inherit">
-        <NavItem title="About" link="/about"  Icon={BiSolidBookmarks}/ >
-        <NavItem title="Home" link="/" Icon={AiFillHome}/>
-        <NavItem title="Documentation" link="/documentation" Icon={AiFillBook} />
+        <NavItem title="About" link="/about" Icon={BiSolidBookmarks} />
+        <NavItem title="Home" link="/" Icon={AiFillHome} />
+        <NavItem
+          title="Documentation"
+          link="/documentation"
+          Icon={AiFillBook}
+        />
       </div>
 
-      <div className="flex">
-        <NavIcon Icon={AiFillGithub} adress={'https://github.com/'} />
-        <NavIcon Icon={BiLogoDocker} adress={'https://hub.docker.com/'} />
-        <NavIcon Icon={SiBuymeacoffee} adress={'https://www.buymeacoffee.com/gabrielreib'} />
+      <div className="hidden sm:invisible">
+        <NavIcons></NavIcons>
       </div>
-      
     </div>
   );
 }
