@@ -34,7 +34,7 @@ function AboutTopic() {
       <Title title={"Concept"} />
       <div className="flex sm:flex-row flex-col max-w-6xl mx-6 my-4">
         <div className="mx-6">
-          <Image src={"/json.png"} height={200} width={200}></Image>
+          <Image src={"/json.png"} height={150} width={150} quality={100}></Image>
         </div>
         <div className="max-w-3xl mx-6">
           <AboutItem title={"Concept"} text={about}></AboutItem>
@@ -45,14 +45,14 @@ function AboutTopic() {
 
       <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4 -my-7">
         <div className="flex flex-col my-10 mx-6">
-          <p className="sm:text-2xl text-xl mb-8">
-            <span className="text-green-400 sm:text-3xl text-xl">
+          <p className="sm:text-2xl text-base mb-8">
+            <span className="text-green-400 sm:text-2xl text-lg">
               {" "}
               Generate{" "}
             </span>{" "}
             Spring Boot classes with a simple and powerful tool that generates
             your entity, repository, and controller already in the
-            <span className="text-green-400 sm:text-3xl text-xl">
+            <span className="text-green-400 sm:text-2xl text-lg">
               {" "}
               RESTful
             </span>{" "}
@@ -61,16 +61,16 @@ function AboutTopic() {
 
           <div className="flex ">
            <div className="pr-6">
-              <Image src={"/api.png"} height={350} width={350}></Image>
+              <Image src={"/api.png"} height={200} width={200} quality={100}></Image>
             </div>
             <div>
-              <p className="sm:text-2xl text-xl py-8">
-                <span className="text-green-400 sm:text-3xl text-xl">
+              <p className="sm:text-2xl text-base py-8">
+                <span className="text-green-400 sm:text-2xl text-lg">
                   {" "}
                   Send{" "}
                 </span>{" "}
                 a simple request and build your{" "}
-                <span className="text-green-400 sm:text-3xl text-xl">
+                <span className="text-green-400 sm:text-2xl text-lg">
                   {" "}
                   Spring Class {" "}
                 </span>
