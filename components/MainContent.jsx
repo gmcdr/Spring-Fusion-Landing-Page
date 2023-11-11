@@ -25,7 +25,7 @@ function MainContent() {
               when starting a new project.
             </p>
             <div className="flex my-4">
-              <ButtonMain
+              <ButtonMain 
                 text={"Get Started"}
                 adress={"/documentation"}
               ></ButtonMain>
