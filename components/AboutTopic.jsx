@@ -61,7 +61,7 @@ function AboutTopic() {
 
           <div className="flex ">
            <div className="pr-6">
-              <Image src={"/api.png"} height={200} width={200} quality={100}></Image>
+              <Image src={"/api.png"} height={250} width={250} quality={100}></Image>
             </div>
             <div>
               <p className="sm:text-2xl text-base py-8">
