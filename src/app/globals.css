@@ -5,15 +5,15 @@
 
 * {
   color: #fff;
- 
+
 }
 
 body {
   background-color: #1e293b;
-  /* background: linear-gradient(-45deg, #0f1825, #1e293b, #0f1825, #1e293b);
+  background: linear-gradient(-45deg, #0f1825, #1e293b, #0f1825, #1e293b);
   background-size: 400% 400%;
   animation: gradient 12s ease infinite;
-  height: 100vh; */
+  height: 100vh; 
 }
 
 @keyframes gradient {
@@ -42,10 +42,10 @@ html {
   min-height: 89vh;
 }
 
-.bg-about{
-  background-image: url('/public/bg.svg')!important;
-  background-size: cover!important;
-  background-repeat: no-repeat!important;
+.bg-about {
+  background-image: url('/public/bg.svg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .custom-shape-divider-bottom-1698768764 {
@@ -97,7 +97,7 @@ html {
 
 }
 
-.p-inherit{
+.p-inherit {
   padding: inherit;
 }
 
@@ -125,7 +125,7 @@ html {
 /** For mobile devices **/
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1699065699 svg {
-      width: calc(300% + 1.3px);
-      height: 274px;
+    width: calc(300% + 1.3px);
+    height: 274px;
   }
 }

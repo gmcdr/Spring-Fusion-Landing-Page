@@ -10,18 +10,18 @@ function MainContent() {
         <div className="mainContent flex-col height max-w-6xl mx-10 py-6">
           <div>
             <h1 className="sm:text-7xl text-5xl font-semibold p-2">
-              Spring Boot{" "}
+              Spring{" "}
               <span className="text-green-400 font-bold">Fusion</span>
             </h1>
-            <h3 className="sm:text-2xl text-xl p-2">
-              Kickstart your projects with pre-built Spring Classes and custom
-              entity creation
+            <h3 className="sm:text-2xl text-2xl p-2">
+              An API that creates API's
             </h3>
             <p className="top-to-bottom p-2 sm:text-xl text-lg hidden sm:block">
               Our Java-based API Generator is the ultimate tool to streamline
               your Spring development process, whether you're a novice or a
-              seasoned developer. It simplifies the generation of Spring classes
-              using pre-built templates, saving you valuable time and effort
+              seasoned developer. It simplifies the generation of Spring classes.
+              With a simple request you can create a custom Spring class, 
+              saving you valuable time and effort
               when starting a new project.
             </p>
             <div className="flex my-4">

@@ -3,6 +3,7 @@ import AboutItem from "./AboutItem";
 import AboutCard from "./AboutCard";
 import Title from "./Title";
 import JsonContent from "./JsonContent";
+import Image from "next/image";
 
 function AboutTopic() {
   const jsonData = `{
@@ -27,12 +28,17 @@ function AboutTopic() {
     "clientID":"test"
 }`;
   let about =
-    "The Java-based API Generator is a tool designed to streamline the development process, providing pre-built Spring classes with customizable templates. It caters to developers of all levels, offering a simple way to kickstart projects. Key features include custom entity creation, automatic generation of essential classes, flexible customization, support for popular technologies, and increased productivity.";
+    "The Java-based API Generator is a tool designed to streamline the development process. It caters to developers of all levels, offering a simple way to kickstart projects. Key features include custom entity creation, automatic generation of essential classes.";
   return (
     <div className="">
-      <Title title={"About"} />
-      <div className="flex max-w-6xl mx-6 my-4">
-        <AboutItem title={"Concept"} text={about}></AboutItem>
+      <Title title={"Concept"} />
+      <div className="flex sm:flex-row flex-col max-w-6xl mx-6 my-4">
+        <div className="mx-6">
+          <Image src={"/json.png"} height={200} width={200}></Image>
+        </div>
+        <div className="max-w-3xl mx-6">
+          <AboutItem title={"Concept"} text={about}></AboutItem>
+        </div>
       </div>
 
       <Title title={"Simple Usage"} />
@@ -40,14 +46,38 @@ function AboutTopic() {
       <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4 -my-7">
         <div className="flex flex-col my-10 mx-6">
           <p className="sm:text-2xl text-xl mb-8">
-             <span className="text-green-400 sm:text-4xl text-2xl"> Generate </span> Spring Boot classes with a simple and powerful tool that
-            generates your entity, repository, and controller already in the
-             <span className="text-green-400 sm:text-4xl text-2xl"> RESTful</span> standard
+            <span className="text-green-400 sm:text-3xl text-xl">
+              {" "}
+              Generate{" "}
+            </span>{" "}
+            Spring Boot classes with a simple and powerful tool that generates
+            your entity, repository, and controller already in the
+            <span className="text-green-400 sm:text-3xl text-xl">
+              {" "}
+              RESTful
+            </span>{" "}
+            standard
           </p>
 
-          <p className="sm:text-2xl text-xl py-8">
-            <span className="text-green-400 sm:text-4xl text-2xl" > Send </span> a simple request and build your <span className="text-green-400 sm:text-4xl text-2xl"> Spring Class </span> 
-          </p>
+          <div className="flex ">
+           <div className="pr-6">
+              <Image src={"/api.png"} height={350} width={350}></Image>
+            </div>
+            <div>
+              <p className="sm:text-2xl text-xl py-8">
+                <span className="text-green-400 sm:text-3xl text-xl">
+                  {" "}
+                  Send{" "}
+                </span>{" "}
+                a simple request and build your{" "}
+                <span className="text-green-400 sm:text-3xl text-xl">
+                  {" "}
+                  Spring Class {" "}
+                </span>
+                for your project with personalized fields and data types
+              </p>
+            </div>
+          </div>
         </div>
         <div className="max-w-4xl justify-center">
           <JsonContent jsonCode={jsonData}></JsonContent>
