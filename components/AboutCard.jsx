@@ -30,7 +30,7 @@ function AboutCard({ imageSrc, title, text }) {
 
         <div className="">
           <div className="">
-            <h1 className="text-xl my-2">{title}</h1>
+            <h1 className="text-lg my-2">{title}</h1>
           </div>
           <div>
             <p className=" text-md mx-4">{text}</p>

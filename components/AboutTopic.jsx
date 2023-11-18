@@ -45,7 +45,7 @@ function AboutTopic() {
 
       <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4 -my-7">
         <div className="flex flex-col my-10 mx-6">
-          <p className="sm:text-2xl text-base mb-8">
+          <p className="sm:text-lg text-base mb-8">
             <span className="text-green-400 sm:text-2xl text-lg">
               {" "}
               Generate{" "}
@@ -61,10 +61,10 @@ function AboutTopic() {
 
           <div className="flex ">
            <div className="pr-6">
-              <Image src={"/api.png"} height={250} width={250} quality={100}></Image>
+              <Image src={"/api.png"} height={200} width={200} quality={100}></Image>
             </div>
             <div>
-              <p className="sm:text-2xl text-base py-8">
+              <p className="sm:text-lg text-base py-8">
                 <span className="text-green-400 sm:text-2xl text-lg">
                   {" "}
                   Send{" "}

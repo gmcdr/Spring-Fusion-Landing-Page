@@ -4,7 +4,7 @@ export default function Title({title}) {
   return (
     <div className="flex justify-center sm:my-16 my-8">
       <h1 className="
-      sm:text-4xl 
+      sm:text-3xl 
       text-2xl
       cursor-pointer 
       hover:text-green-400 
