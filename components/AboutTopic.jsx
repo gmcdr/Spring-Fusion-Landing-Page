@@ -34,7 +34,12 @@ function AboutTopic() {
       <Title title={"Concept"} />
       <div className="flex sm:flex-row flex-col max-w-6xl mx-6 my-4">
         <div className="mx-6">
-          <Image src={"/json.png"} height={150} width={150} quality={100}></Image>
+          <Image
+            src={"/json.png"}
+            height={150}
+            width={150}
+            quality={100}
+          ></Image>
         </div>
         <div className="max-w-3xl mx-6">
           <AboutItem title={"Concept"} text={about}></AboutItem>
@@ -46,36 +51,29 @@ function AboutTopic() {
       <div className=" flex max-w-6xl sm:flex-row flex-col justify-center mx-4 -my-7">
         <div className="flex flex-col my-10 mx-6">
           <p className="sm:text-lg text-base mb-8">
-            <span className="text-green-400 sm:text-2xl text-lg">
+            <span className="text-green-400 sm:text-xl text-lg">
               {" "}
               Generate{" "}
             </span>{" "}
             Spring Boot classes with a simple and powerful tool that generates
-            your entity, repository, and controller already in the
-            <span className="text-green-400 sm:text-2xl text-lg">
+            your entity, repository, and controller already in the 
+            <span className="text-green-400 sm:text-xl text-lg">
               {" "}
               RESTful
             </span>{" "}
-            standard
+            standard. Send a simple
+            request and build your Spring Class for your project with
+            personalized fields and data types.
           </p>
 
-          <div className="flex ">
-           <div className="pr-6">
-              <Image src={"/api.png"} height={200} width={200} quality={100}></Image>
-            </div>
-            <div>
-              <p className="sm:text-lg text-base py-8">
-                <span className="text-green-400 sm:text-2xl text-lg">
-                  {" "}
-                  Send{" "}
-                </span>{" "}
-                a simple request and build your{" "}
-                <span className="text-green-400 sm:text-2xl text-lg">
-                  {" "}
-                  Spring Class {" "}
-                </span>
-                for your project with personalized fields and data types
-              </p>
+          <div className="flex  justify-end">
+            <div className="pr-6">
+              <Image
+                src={"/api.png"}
+                height={150}
+                width={150}
+                quality={100}
+              ></Image>
             </div>
           </div>
         </div>
@@ -86,7 +84,7 @@ function AboutTopic() {
 
       <Title title={"Key Features"} />
 
-      <div className="sm:grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 max-w-7xl mx-auto py-4">
+      <div className="sm:grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 max-w-7xl mx-auto py-4">
         <AboutCard
           text={
             "Define your entities with custom fields, data types, sizes, and more, all through a simple request."
